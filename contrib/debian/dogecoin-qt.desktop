@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Fastcoin Core
+Comment=Connect to the Fastcoin P2P Network
+Comment[de]=Verbinde mit dem Fastcoin peer-to-peer Netzwerk
+Comment[fr]=Fastcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Fastcoin, eşten eşe kriptografik sanal para birimi
+Exec=fastcoin-qt %u
+Terminal=false
+Type=Application
+Icon=fastcoin128
+MimeType=x-scheme-handler/fastcoin;
+Categories=Office;Finance;
