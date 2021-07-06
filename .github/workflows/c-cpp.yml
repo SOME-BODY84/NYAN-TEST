@@ -28,7 +28,7 @@ jobs:
       - name: autogen 
         run: ./configure --with-incompatible-bdb
       - name: make
-        run: make -j44
+        run: make -j4
         
 
         
