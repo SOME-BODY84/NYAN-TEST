@@ -45,13 +45,13 @@ extern bool fWalletRbf;
 
 static const unsigned int DEFAULT_KEYPOOL_SIZE = 100;
 //! -paytxfee default
-static const CAmount DEFAULT_TRANSACTION_FEE = 0;
+static const CAmount DEFAULT_TRANSACTION_FEE = 10;
 //! -fallbackfee default
-static const CAmount DEFAULT_FALLBACK_FEE = 1;
+static const CAmount DEFAULT_FALLBACK_FEE = 10;
 //! -mintxfee default
-static const CAmount DEFAULT_TRANSACTION_MINFEE = 1;
+static const CAmount DEFAULT_TRANSACTION_MINFEE = 10;
 //! minimum recommended increment for BIP 125 replacement txs
-static const CAmount WALLET_INCREMENTAL_RELAY_FEE = 1;
+static const CAmount WALLET_INCREMENTAL_RELAY_FEE = 10;
 //! target minimum change amount
 static const CAmount MIN_CHANGE = CENT;
 //! final minimum change amount after paying for fees
@@ -59,7 +59,7 @@ static const CAmount MIN_FINAL_CHANGE = MIN_CHANGE/2;
 //! Default for -spendzeroconfchange
 static const bool DEFAULT_SPEND_ZEROCONF_CHANGE = true;
 //! Default for -sendfreetransactions
-static const bool DEFAULT_SEND_FREE_TRANSACTIONS = false;
+static const bool DEFAULT_SEND_FREE_TRANSACTIONS = true;
 //! Default for -walletrejectlongchains
 static const bool DEFAULT_WALLET_REJECT_LONG_CHAINS = false;
 //! -txconfirmtarget default
